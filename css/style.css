@@ -15,17 +15,6 @@ strong {
     font-weight: bold;
 }
 
-/* Media query para telas menores que 600px */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 0.9em;
-    }
-}
-
 .image-container {
     overflow: hidden;
 }
