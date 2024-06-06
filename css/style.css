@@ -15,26 +15,23 @@ strong {
     font-weight: bold;
 }
 
+
+
 .image-container {
     overflow: hidden;
 }
   
 .image-container img {
     display: block;
-    max-width: 100%;
-}
-
-@media only screen and (max-width: 990px) {
-    html {
-      font-size: 14px;
-    }
+    width: 50px;
+    height: 50px;
 }
 
 h1 {
-    padding-top: 10.4375rem;
+    padding-top: 5rem;
     padding-bottom: 1.25rem;
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 8rem;
+    font-size: 10rem;
   
 }
 
@@ -43,18 +40,14 @@ h1 {
 header {
     display: flex;
     align-items: center;
-    padding: .5rem 3.75rem;
-    background-color: orange;
+    padding: .3rem 3.75rem;
+    background-color: #7B68EE;
 }
   
 header .logo-small {
-    display: none;
+    display: inline;
 }
-  
-header .logo-small {
-    flex-grow: 1;
-}
-  
+ 
 nav li {
     display: inline;
     padding-right: 2rem;
@@ -64,37 +57,16 @@ nav li:last-child {
     padding-right: 0;
 }
   
-@media only screen and (max-width: 990px) {
-    header .logo-big {
-      display: none;
-    }
-  
-    header .logo-small {
-      display: block;
-    }
-  }
-  
-  @media only screen and (max-width: 540px) {
-    header {
-      flex-direction: column;
-      padding-left: 0;
-      padding-right: 0;
-    }
-  
-    header .logo-small {
-      margin-bottom: 1rem;
-    }
-  }
-
   /* Banner */
 
 #banner {
     position: relative;
     height: 43.75rem;
     padding: 0 25%;
-    background: url("/img/logo-grande.png") center center no-repeat;
+    background: url("logo-grande.png") center center no-repeat;
     background-size: cover;
     text-align: center;
+    font-size: 30px;
 }
 
 #banner:before { /* Orange Overlay */
